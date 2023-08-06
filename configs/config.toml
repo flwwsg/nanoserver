@@ -26,10 +26,10 @@ port = 6357
 
 # Mysql server config
 [database]
-host = "127.0.0.1"
+host = "dev.wdj"
 port = 3306
 dbname = "scmj"
-password = ""
+password = "123456"
 username = "root"
 args = "charset=utf8mb4"
 buf_size = 10

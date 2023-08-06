@@ -7,6 +7,7 @@ replace (
 	golang.org/x/net => github.com/golang/net v0.0.0-20180926154720-4dfa2610cdf3
 	golang.org/x/sys => github.com/golang/sys v0.0.0-20180928133829-e4b3c5e90611
 	golang.org/x/text => github.com/golang/text v0.3.0
+	github.com/go-xorm/core => github.com/go-xorm/core v0.0.0-20180322142944-0177c08cee88
 )
 
 require (
