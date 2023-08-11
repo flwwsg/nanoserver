@@ -78,6 +78,7 @@ func Startup() {
 	addr := fmt.Sprintf(":%d", viper.GetInt("game-server.port"))
 	nano.Listen(addr,
 		nano.WithPipeline(pip),
+		nano.WithDebugMode(),
 		nano.WithHeartbeatInterval(time.Duration(heartbeat)*time.Second),
 		nano.WithLogger(log.WithField("component", "nano")),
 		nano.WithSerializer(json.NewSerializer()),
