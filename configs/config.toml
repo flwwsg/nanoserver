@@ -21,8 +21,8 @@ port = 33251
 
 # Redis server config
 [redis]
-host = "127.0.0.1"
-port = 6357
+host = "dev.wdj"
+port = 6389
 
 # Mysql server config
 [database]
